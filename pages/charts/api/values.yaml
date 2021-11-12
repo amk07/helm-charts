@@ -20,14 +20,14 @@ env:
   SPRING_DATASOURCE_URL: jdbc:mysql://pages-mysql/pages?useSSL=false
   SPRING_DATASOURCE_USERNAME: root
   DEBUG: true
-  LOGGING_FILE_NAME: ambala/logs/app.log
+  LOGGING_FILE_NAME: ellora/logs/app.log
   LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB: debug
   LOGGING_LEVEL_ROOT: debug
   MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: "*"
 
 
 volumeMounts:
-  mount_path: /ambala
+  mount_path: /ellora
 
 readinessProbe:
   tcpSocket:

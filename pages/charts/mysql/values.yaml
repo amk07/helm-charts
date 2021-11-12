@@ -40,7 +40,7 @@ pv:
     storage: 3Gi
   accessMode: ReadWriteMany
   hostPath:
-    path: "/var/lib/mysql/ambala"
+    path: "/var/lib/mysql/ellora"
 pvc:
   resources:
     requests:
